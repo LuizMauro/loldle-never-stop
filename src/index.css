@@ -1,0 +1,14 @@
+body {
+  background-color: #0f131a;
+  color: #f4f4f4;
+}
+
+table > thead > th {
+  padding: 20px;
+  margin: 5px;
+  border-bottom: 3px solid red;
+}
+
+table > tbody > tr > td {
+  text-align: center;
+}
