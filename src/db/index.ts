@@ -152,14 +152,14 @@ export const checkColorObjectArray = (champion: any, key: string) => {
 export const checkDate = (champion: any) => {
   const { release_date } = getChampionLocalStorage();
   if (release_date.split("-")[0] === champion.release_date.split("-")[0]) {
-    return "é a data";
+    return "↔";
   }
 
   if (release_date.split("-")[0] < champion.release_date.split("-")[0]) {
-    return "é menor";
+    return "↓";
   }
 
   if (release_date.split("-")[0] > champion.release_date.split("-")[0]) {
-    return "é maior";
+    return "↑";
   }
 };
